@@ -1,0 +1,92 @@
+body{
+    user-select: none;
+
+    background-color: white;
+}
+.header{
+    margin-left: 20px;
+    user-select: none;
+    background: linear-gradient(to right, #2975b3 20%, #c01212  40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.app-continer{
+    margin-top: 40px;
+}
+
+.sketch{
+    width: 280px;
+    height: 280px;
+    margin-left: 50px;
+    outline: none;
+    border-color: #2975b3;
+    box-shadow: 0 0 10px #2975b3;
+    position: absolute;
+}
+
+.resultArea{
+    width: 280px;
+    height: 280px;
+    margin-left: 450px;
+    margin-top: 0px;
+    border-color: #c01212;
+    box-shadow: 0 0 10px #c01212;
+    position: absolute;
+}
+
+.resultArea .result{
+    user-select: none;
+    margin-left: 110px;
+    margin-top: 0px;
+    font-size: 100;
+    color: #ff0000;
+    text-shadow: 0 0 5px #ff0000;
+}
+
+.resultArea .resultHeader{
+    margin-left: 25px;
+    user-select: none;
+    color: #e92f2f;
+}
+
+.clearButton{
+    margin-top: 300px;
+    margin-left: 75px;
+    width: 100px;
+    position: absolute;
+    background-color: rgb(194, 115, 69);
+    border-radius: 30px;
+    border-style: none;
+    color:white
+}
+
+.analyzeButton{
+    margin-top: 300px;
+    margin-left: 190px;
+    width: 100px;
+    position: absolute;
+    background-color: rgb(45, 145, 163);
+    border-radius: 30px;
+    border-style: none;
+    color:white
+}
+
+.analyzeButton:active{
+    background-color: rgb(58, 207, 233);
+}
+
+
+.clearButton:active{
+    background-color: #d12525;
+}
+.copyright{
+    margin-top: 350px;
+    margin-left: 50px;
+    position: absolute;
+    color: #272727;
+    font-size: 15;
+
+
+}
